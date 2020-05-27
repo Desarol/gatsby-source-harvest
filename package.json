@@ -1,0 +1,18 @@
+{
+  "name": "gatsby-source-harvest",
+  "description": "A Gatsby source plugin to load resources from the Harvest API.",
+  "author": "Yoselyn Oviedo <yoviedof@gmail.com>",
+  "repository": "https://github.com/desarol/gatsby-source-harvest.git",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "harvest",
+    "time logging",
+    "project management"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "harvest": "^2.2.5"
+  },
+  "version": "1.0.3"
+}
