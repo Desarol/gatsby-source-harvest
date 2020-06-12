@@ -37,7 +37,7 @@ exports.sourceNodes = async (
 
     async function waitForEntries() {
       return new Promise((resolve, reject) => {
-        getAllEntries(1, [], 5, resolve, reject)
+        getAllEntries(1, [], options.pageLimit, resolve, reject)
       })
     }
 
