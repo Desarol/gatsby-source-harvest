@@ -18,7 +18,7 @@ exports.sourceNodes = async (
     harvest.timeEntries
       .list({
         page: page,
-        client_id: "5630712"
+        client_id: options.clientId
       })
       .then((response) => {
         const retrivedEntries = entries.concat(response.time_entries)
